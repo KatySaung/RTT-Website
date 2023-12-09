@@ -1,0 +1,24 @@
+body {
+  height: 300vh;
+}
+
+/* NavBar */
+#NavBar {
+  background-color: blue;
+  overflow: hidden;
+}
+
+/* CSS NavBar a tag */
+#NavBar a {
+  color: white;
+  text-align: center;
+  padding: 15px;
+  float: right;
+  display: block;
+}
+/* sticky NavBar */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
