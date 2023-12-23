@@ -6,7 +6,12 @@
     <title>RTT Website</title>
     <link rel="stylesheet" href="styles.css" />
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <div id="NavBar" class="sticky-top mb-1">
@@ -14,30 +19,150 @@
       <a href="">Link 2</a>
       <a href="">Link 3</a>
     </div>
-    <div id="hero-carousel" class="carousel slide w-100 max-height-60" data-bs-ride="carousel">
+    <div
+      id="hero-carousel"
+      class="carousel slide w-100 max-height-60"
+      data-bs-ride="carousel"
+    >
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="https://placehold.co/400" class="d-block w-100 max-height-60" alt="first hero item">
+          <img
+            src="https://placehold.co/400"
+            class="d-block w-100 max-height-60"
+            alt="first hero item"
+          />
         </div>
         <div class="carousel-item">
-          <img src="https://placehold.co/400" class="d-block w-100 max-height-60" alt="second hero item">
+          <img
+            src="https://placehold.co/400"
+            class="d-block w-100 max-height-60"
+            alt="second hero item"
+          />
         </div>
         <div class="carousel-item">
-          <img src="https://placehold.co/400" class="d-block w-100 max-height-60" alt="third hero item">
+          <img
+            src="https://placehold.co/400"
+            class="d-block w-100 max-height-60"
+            alt="third hero item"
+          />
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon btn-dark" aria-hidden="true"></span>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#hero-carousel"
+        data-bs-slide="prev"
+      >
+        <span
+          class="carousel-control-prev-icon btn-dark"
+          aria-hidden="true"
+        ></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon btn-dark" aria-hidden="true"></span>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#hero-carousel"
+        data-bs-slide="next"
+      >
+        <span
+          class="carousel-control-next-icon btn-dark"
+          aria-hidden="true"
+        ></span>
         <span class="visually-hidden">Next</span>
       </button>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col order-last">
+          <img
+            src="https://placehold.co/400"
+            class="d-block w-100 max-height-60"
+            alt="third hero item"
+          />First in DOM, ordered last
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt
+            exercitationem ut provident
+          </p>
+        </div>
+
+        <div class="col">
+          <img
+            src="https://placehold.co/400"
+            class="d-block w-100 max-height-60"
+            alt="third hero item"
+          />
+          Second in DOM, unordered
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt
+            exercitationem ut provident
+          </p>
+        </div>
+        <div class="col order-first">
+          <img
+            src="https://placehold.co/400"
+            class="d-block w-100 max-height-60"
+            alt="third hero item"
+          />
+          Third in DOM, ordered first
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt
+            exercitationem ut provident
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col order-last">
+          <img
+            src="https://placehold.co/400"
+            class="d-block w-100 max-height-60"
+            alt="third hero item"
+          />First in DOM, ordered last
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt
+            exercitationem ut provident
+          </p>
+        </div>
+
+        <div class="col">
+          <img
+            src="https://placehold.co/400"
+            class="d-block w-100 max-height-60"
+            alt="third hero item"
+          />
+          Second in DOM, unordered
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt
+            exercitationem ut provident
+          </p>
+        </div>
+        <div class="col order-first">
+          <img
+            src="https://placehold.co/400"
+            class="d-block w-100 max-height-60"
+            alt="third hero item"
+          />
+          Third in DOM, ordered first
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt
+            exercitationem ut provident
+          </p>
+        </div>
+      </div>
     </div>
   </body>
   <script src="js/script.js"></script>
   <!-- Bootstrap JS with Popper Separated. -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"
+  ></script>
 </html>
