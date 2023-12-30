@@ -26,3 +26,7 @@ body {
 .max-height-60 {
   height: 60vh;
 }
+
+.margin-top {
+  margin-top: 2rem;
+}
